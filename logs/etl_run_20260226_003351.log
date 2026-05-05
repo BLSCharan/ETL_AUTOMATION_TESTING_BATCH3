@@ -1,0 +1,25 @@
+2026-02-26 00:33:51,538 | INFO | Snowflake Connector for Python Version: 4.3.0, Python Version: 3.11.4, Platform: Windows-10-10.0.26200-SP0
+2026-02-26 00:33:51,538 | INFO | Connecting to GLOBAL Snowflake domain
+2026-02-26 00:33:55,612 | INFO | Snowflake Connector for Python Version: 4.3.0, Python Version: 3.11.4, Platform: Windows-10-10.0.26200-SP0
+2026-02-26 00:33:55,614 | INFO | Connecting to GLOBAL Snowflake domain
+2026-02-26 00:33:58,204 | INFO | =============================================
+2026-02-26 00:33:58,204 | INFO | Starting ETL Transformation Validations...
+2026-02-26 00:33:58,204 | INFO | =============================================
+2026-02-26 00:33:58,205 | INFO | Running Aggregate Validation...
+2026-02-26 00:34:16,123 | ERROR | Aggregate Validation FAILED
+2026-02-26 00:34:16,123 | INFO | Running Group By Validation...
+2026-02-26 00:34:22,583 | ERROR | Group By Validation FAILED
+2026-02-26 00:34:22,584 | INFO | Running Filter Validation...
+2026-02-26 00:34:29,704 | ERROR | Filter Validation FAILED
+2026-02-26 00:34:29,705 | INFO | Running Regex Validation...
+2026-02-26 00:34:29,825 | INFO | Regex Validation PASSED
+2026-02-26 00:34:29,825 | INFO | =============================================
+2026-02-26 00:34:29,827 | INFO | Validation Execution Summary:
+2026-02-26 00:34:29,827 | INFO | =============================================
+2026-02-26 00:34:29,827 | INFO | Aggregate Validation : COMPLETED
+2026-02-26 00:34:29,827 | INFO | Group By Validation : COMPLETED
+2026-02-26 00:34:29,827 | INFO | Filter Validation : COMPLETED
+2026-02-26 00:34:29,827 | INFO | Regex Validation : COMPLETED
+2026-02-26 00:34:29,827 | INFO | =============================================
+2026-02-26 00:34:29,828 | INFO | ETL Transformation Validations Completed.
+2026-02-26 00:34:29,828 | INFO | =============================================

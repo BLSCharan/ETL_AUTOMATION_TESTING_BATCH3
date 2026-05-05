@@ -1,0 +1,45 @@
+2026-04-22 07:45:58,691 - INFO - ETL Validation Process Started
+2026-04-22 07:45:59,205 - INFO - Connected to SQL Server Successfully
+2026-04-22 07:45:59,205 - INFO - Snowflake Connector for Python Version: 4.3.0, Python Version: 3.11.4, Platform: Windows-10-10.0.26200-SP0
+2026-04-22 07:45:59,207 - INFO - Connecting to GLOBAL Snowflake domain
+2026-04-22 07:46:04,534 - INFO - Connected to Snowflake Successfully
+2026-04-22 07:46:05,941 - INFO - Data loaded into Pandas DataFrames successfully
+2026-04-22 07:46:05,943 - INFO - Source Count: 9
+2026-04-22 07:46:05,943 - INFO - Target Count: 7
+2026-04-22 07:46:05,944 - ERROR - Row Count Validation Failed
+2026-04-22 07:46:05,944 - INFO - Column Validation Passed
+2026-04-22 07:46:05,951 - INFO - Source Null Counts:
+id      0
+name    1
+city    2
+age     2
+dtype: int64
+2026-04-22 07:46:05,956 - INFO - Target Null Counts:
+ID      0
+NAME    2
+CITY    2
+AGE     2
+dtype: int64
+2026-04-22 07:46:05,965 - INFO - Source Duplicate Rows: 0
+2026-04-22 07:46:05,965 - INFO - Target Duplicate Rows: 0
+2026-04-22 07:46:05,967 - INFO - Source Data Types:
+id        int64
+name     object
+city     object
+age     float64
+dtype: object
+2026-04-22 07:46:05,972 - INFO - Target Data Types:
+ID        int64
+NAME     object
+CITY     object
+AGE     float64
+dtype: object
+2026-04-22 07:46:06,018 - ERROR - Records missing in Target:
+   id name_source city_source  age_source name_target city_target  age_target     _merge
+0   1       Rahul   Hyderabad        25.0         NaN         NaN         NaN  left_only
+1   2       Rahul   Hyderabad        25.0         NaN         NaN         NaN  left_only
+2026-04-22 07:46:06,057 - ERROR - Mismatch found in column 'name': 1 rows
+2026-04-22 07:46:06,058 - ERROR -    id name_source name_target
+5   6         NaN        None
+2026-04-22 07:46:06,287 - INFO - Connections Closed Successfully
+2026-04-22 07:46:06,287 - INFO - ETL Validation Process Completed

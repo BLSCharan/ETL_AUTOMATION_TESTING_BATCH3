@@ -1,0 +1,43 @@
+2026-02-26 00:31:02,649 | INFO | Snowflake Connector for Python Version: 4.3.0, Python Version: 3.11.4, Platform: Windows-10-10.0.26200-SP0
+2026-02-26 00:31:02,649 | INFO | Connecting to GLOBAL Snowflake domain
+2026-02-26 00:31:07,197 | INFO | Snowflake Connector for Python Version: 4.3.0, Python Version: 3.11.4, Platform: Windows-10-10.0.26200-SP0
+2026-02-26 00:31:07,197 | INFO | Connecting to GLOBAL Snowflake domain
+2026-02-26 00:31:09,678 | INFO | =============================================
+2026-02-26 00:31:09,681 | INFO | Starting ETL Transformation Validations...
+2026-02-26 00:31:09,681 | INFO | =============================================
+2026-02-26 00:31:09,681 | INFO | Running Aggregate Validation...
+2026-02-26 00:31:09,803 | ERROR | Aggregate Validation Crashed: Execution failed on sql '
+        SELECT 
+            COUNT(*) AS total_rows,
+            SUM(total_amount) AS total_revenue,
+            MAX(total_amount) AS max_trip,
+            MIN(total_amount) AS min_trip,
+            AVG(total_amount) AS avg_trip
+        FROM yellow_tripdata_2015_02
+    ': (pyodbc.ProgrammingError) ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Operand data type varchar is invalid for sum operator. (8117) (SQLExecDirectW)')
+[SQL: 
+        SELECT 
+            COUNT(*) AS total_rows,
+            SUM(total_amount) AS total_revenue,
+            MAX(total_amount) AS max_trip,
+            MIN(total_amount) AS min_trip,
+            AVG(total_amount) AS avg_trip
+        FROM yellow_tripdata_2015_02
+    ]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2026-02-26 00:31:09,803 | INFO | Running Group By Validation...
+2026-02-26 00:31:18,413 | ERROR | Group By Validation Crashed: 'payment_type'
+2026-02-26 00:31:18,413 | INFO | Running Filter Validation...
+2026-02-26 00:31:23,478 | ERROR | Filter Validation FAILED
+2026-02-26 00:31:23,478 | INFO | Running Regex Validation...
+2026-02-26 00:31:23,631 | INFO | Regex Validation PASSED
+2026-02-26 00:31:23,631 | INFO | =============================================
+2026-02-26 00:31:23,633 | INFO | Validation Execution Summary:
+2026-02-26 00:31:23,633 | INFO | =============================================
+2026-02-26 00:31:23,633 | INFO | Aggregate Validation : FAILED
+2026-02-26 00:31:23,633 | INFO | Group By Validation : FAILED
+2026-02-26 00:31:23,633 | INFO | Filter Validation : COMPLETED
+2026-02-26 00:31:23,634 | INFO | Regex Validation : COMPLETED
+2026-02-26 00:31:23,634 | INFO | =============================================
+2026-02-26 00:31:23,634 | INFO | ETL Transformation Validations Completed.
+2026-02-26 00:31:23,634 | INFO | =============================================

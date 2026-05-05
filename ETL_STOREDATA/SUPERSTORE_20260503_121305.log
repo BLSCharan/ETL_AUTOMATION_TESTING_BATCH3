@@ -1,0 +1,25 @@
+2026-05-03 12:13:05,862 | INFO | Loading Data...
+2026-05-03 12:13:07,036 | INFO | Source Rows: 9994
+2026-05-03 12:13:07,036 | INFO | Target Rows: 3765
+2026-05-03 12:13:07,036 | INFO | Full Load Validation
+2026-05-03 12:13:07,045 | INFO | Filtered Source: 3765, Target: 3765
+2026-05-03 12:13:07,045 | INFO | Row Count Validation
+2026-05-03 12:13:07,045 | INFO | Source: 9994, Target: 3765
+2026-05-03 12:13:07,045 | INFO | Column Validation
+2026-05-03 12:13:07,052 | INFO | Missing Columns: set()
+2026-05-03 12:13:07,052 | INFO | Null Validation
+2026-05-03 12:13:07,052 | INFO | Source Nulls: 0, Target Nulls: 0
+2026-05-03 12:13:07,052 | INFO | Duplicate Validation
+2026-05-03 12:13:07,102 | INFO | Source Duplicates: 0, Target Duplicates: 0
+2026-05-03 12:13:07,102 | INFO | DataType Validation
+2026-05-03 12:13:07,102 | INFO | Mismatched Columns: []
+2026-05-03 12:13:07,102 | INFO | Filter Validation
+2026-05-03 12:13:07,102 | INFO | Invalid Rows: 0
+2026-05-03 12:13:07,102 | INFO | String Transformation
+2026-05-03 12:13:07,277 | INFO | Mismatch Count: 0
+2026-05-03 12:13:07,286 | INFO | Regex Validation
+2026-05-03 12:13:07,464 | INFO | Regex Mismatch: 0
+2026-05-03 12:13:07,464 | INFO | Aggregation Validation
+2026-05-03 12:13:07,480 | INFO | Aggregation checked
+2026-05-03 12:13:07,480 | INFO | Date Validation
+2026-05-03 12:13:08,606 | INFO | Date Mismatch: 0

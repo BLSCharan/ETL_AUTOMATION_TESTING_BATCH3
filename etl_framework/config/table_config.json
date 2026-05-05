@@ -1,0 +1,9 @@
+{
+  "tables": [
+    {
+      "source_query": "SELECT * FROM dbo.customers",
+      "target_query": "SELECT * FROM customers",
+      "primary_key": "id"
+    }
+  ]
+}

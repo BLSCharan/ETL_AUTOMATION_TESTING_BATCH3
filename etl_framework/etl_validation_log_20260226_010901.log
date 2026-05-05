@@ -1,0 +1,9 @@
+2026-02-26 01:09:01,821 - INFO - ETL Validation Started
+2026-02-26 01:09:02,502 - INFO - Snowflake Connector for Python Version: 4.3.0, Python Version: 3.11.4, Platform: Windows-10-10.0.26200-SP0
+2026-02-26 01:09:02,503 - INFO - Connecting to GLOBAL Snowflake domain
+2026-02-26 01:09:06,212 - INFO - Row Count Validation: FAIL - Source: 8, Target: 3
+2026-02-26 01:09:06,212 - INFO - Column Validation: PASS
+2026-02-26 01:09:06,214 - INFO - Null Validation: {'source_nulls': {'id': 0, 'name': 2, 'city': 2, 'age': 2}, 'target_nulls': {'id': 0, 'name': 0, 'city': 0, 'age': 0}}
+2026-02-26 01:09:06,215 - INFO - Duplicate Validation: {'source_duplicates': 0, 'target_duplicates': 1}
+2026-02-26 01:09:06,224 - INFO - Data Mismatch Validation: {'missing_in_target': 6, 'missing_in_source': 0, 'column_mismatches': []}
+2026-02-26 01:09:06,224 - INFO - ETL Validation Completed

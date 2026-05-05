@@ -1,0 +1,23 @@
+2026-05-03 12:13:08,650 | INFO | Loading Data...
+2026-05-03 12:13:08,766 | INFO | Source Rows: 9
+2026-05-03 12:13:08,766 | INFO | Target Rows: 7
+2026-05-03 12:13:08,766 | INFO | Full Load Validation
+2026-05-03 12:13:08,802 | INFO | Row Count Validation
+2026-05-03 12:13:08,802 | INFO | Source: 9, Target: 7
+2026-05-03 12:13:08,802 | INFO | Column Validation
+2026-05-03 12:13:08,802 | INFO | Missing Columns: set()
+2026-05-03 12:13:08,802 | INFO | Null Validation
+2026-05-03 12:13:08,802 | INFO | Source Nulls: 5, Target Nulls: 6
+2026-05-03 12:13:08,802 | INFO | Duplicate Validation
+2026-05-03 12:13:08,802 | INFO | Source Duplicates: 0, Target Duplicates: 0
+2026-05-03 12:13:08,802 | INFO | DataType Validation
+2026-05-03 12:13:08,802 | INFO | Mismatched Columns: []
+2026-05-03 12:13:08,802 | INFO | Filter Validation
+2026-05-03 12:13:08,802 | INFO | Invalid Rows: 0
+2026-05-03 12:13:08,802 | INFO | String Transformation
+2026-05-03 12:13:08,802 | INFO | Mismatch Count: 0
+2026-05-03 12:13:08,802 | INFO | Regex Validation
+2026-05-03 12:13:08,802 | WARNING | No Regex Column
+2026-05-03 12:13:08,802 | INFO | Aggregation Validation
+2026-05-03 12:13:08,802 | INFO | Date Validation
+2026-05-03 12:13:08,802 | WARNING | No Date Column

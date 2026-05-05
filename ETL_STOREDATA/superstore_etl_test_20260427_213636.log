@@ -1,0 +1,47 @@
+2026-04-27 21:36:36,956 | INFO | ========== ETL TEST EXECUTION STARTED ==========
+2026-04-27 21:36:36,956 | INFO | Execution Started | Load Type: INCREMENTAL
+2026-04-27 21:36:37,110 | INFO | SQL Server Connection Established | ENV: DEV
+2026-04-27 21:36:37,110 | INFO | Snowflake Connector for Python Version: 4.3.0, Python Version: 3.11.4, Platform: Windows-10-10.0.26200-SP0
+2026-04-27 21:36:37,110 | INFO | Connecting to GLOBAL Snowflake domain
+2026-04-27 21:36:40,070 | INFO | Snowflake Connection Established | ENV: DEV
+2026-04-27 21:36:40,387 | INFO | Source Rows Loaded: 9994
+2026-04-27 21:36:41,110 | INFO | Target Rows Loaded: 3765
+2026-04-27 21:36:41,143 | INFO | Row Count Validation Started
+2026-04-27 21:36:41,143 | INFO | Source Count: 6682
+2026-04-27 21:36:41,143 | INFO | Target Count: 3765
+2026-04-27 21:36:41,143 | INFO | Column Validation Started
+2026-04-27 21:36:41,143 | INFO | Missing Columns: set()
+2026-04-27 21:36:41,143 | INFO | Extra Columns: {'total_region_profit', 'order_day', 'year_month', 'avg_region_profit', 'product_name_length', 'total_region_orders', 'min_region_sales', 'product_prefix', 'order_month', 'order_year', 'max_region_sales', 'total_region_sales', 'order_weekday', 'shipping_days', 'load_dt'}
+2026-04-27 21:36:41,143 | INFO | Null Validation Started
+2026-04-27 21:36:41,155 | INFO | Source Null Count: 0
+2026-04-27 21:36:41,155 | INFO | Target Null Count: 0
+2026-04-27 21:36:41,155 | INFO | Duplicate Validation Started
+2026-04-27 21:36:41,187 | INFO | Source Duplicate Rows: 0
+2026-04-27 21:36:41,187 | INFO | Target Duplicate Rows: 0
+2026-04-27 21:36:41,187 | INFO | DataType Validation Started
+2026-04-27 21:36:41,187 | INFO | DataType Mismatch Columns: []
+2026-04-27 21:36:41,187 | INFO | Filter Validation Started
+2026-04-27 21:36:41,187 | INFO | Rows with SALES <= 100: 0
+2026-04-27 21:36:41,187 | INFO | String Transformation Validation Started
+2026-04-27 21:36:41,367 | INFO | String Transformation Mismatch Count: 0
+2026-04-27 21:36:41,367 | INFO | Regex Cleaning Validation Started
+2026-04-27 21:36:41,543 | INFO | Regex Cleaning Mismatch Count: 0
+2026-04-27 21:36:41,543 | INFO | Region Aggregation Validation Started
+2026-04-27 21:36:41,665 | INFO | Region Aggregation Mismatch Count: 0
+2026-04-27 21:36:41,665 | INFO | Date Transformation Validation Started
+2026-04-27 21:36:42,698 | INFO | Date Transformation Mismatch Count: 0
+2026-04-27 21:36:42,698 | INFO | Incremental Validation Started
+2026-04-27 21:36:42,698 | ERROR | Row Count Mismatch in Incremental Data
+2026-04-27 21:36:42,698 | ERROR | Row Count : FAILED
+2026-04-27 21:36:42,698 | INFO | Column Validation : PASSED
+2026-04-27 21:36:42,698 | INFO | Null Validation : PASSED
+2026-04-27 21:36:42,698 | INFO | Duplicate Validation : PASSED
+2026-04-27 21:36:42,698 | INFO | DataType Validation : PASSED
+2026-04-27 21:36:42,698 | INFO | Filter Validation : PASSED
+2026-04-27 21:36:42,698 | INFO | String Transformation : PASSED
+2026-04-27 21:36:42,698 | INFO | Regex Cleaning : PASSED
+2026-04-27 21:36:42,698 | INFO | Region Aggregation : PASSED
+2026-04-27 21:36:42,698 | INFO | Date Validation : PASSED
+2026-04-27 21:36:42,698 | ERROR | Incremental Validation : FAILED
+2026-04-27 21:36:42,698 | INFO | OVERALL ETL TEST FAILED
+2026-04-27 21:36:42,845 | INFO | ========== ETL TEST EXECUTION COMPLETED ==========
