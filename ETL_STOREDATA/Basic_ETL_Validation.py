@@ -37,8 +37,8 @@ except Exception as e:
 
 try:
     sf_connection = snowflake.connector.connect(
-        user='BSDivya',
-        password='21092002@SnowFlake',
+        user='****',
+        password='*******',
         account='fdmdkjh-pa09017',
         warehouse='ETL_WH',
         database='ETL_DB',
