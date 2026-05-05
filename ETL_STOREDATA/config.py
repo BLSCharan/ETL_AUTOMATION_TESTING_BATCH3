@@ -25,8 +25,8 @@ CONFIG = {
         # SNOWFLAKE CONNECTION
         # ================================
         "snowflake": {
-            "user": "BSDivya",
-            "password": "21092002@SnowFlake",
+            "user": "**",
+            "password": "******",
             "account": "fdmdkjh-pa09017",
             "warehouse": "ETL_WH",
             "database": "ETL_DB",
